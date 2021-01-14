@@ -1,6 +1,7 @@
 module.exports = exports = function(yargs, version, isDocker) {
   return yargs
     .strict()
+    .env('GANACHE_CLI')
     .option('p', {
       group: 'Network:',
       alias: 'port',
