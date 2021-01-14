@@ -54,7 +54,7 @@ $ ganache-cli <options>
 * `-e` or `--defaultBalanceEther`: Amount of ether to assign each test account. Default is 100.
 * `-b` or `--blockTime`: Specify blockTime in seconds for automatic mining. If you don't specify this flag, ganache will instantly mine a new block for every transaction. Using the --blockTime flag is discouraged unless you have tests which require a specific mining interval.
 * `-d` or `--deterministic`: Generate deterministic addresses based on a pre-defined mnemonic.
-* `-n` or `--secure`: Lock available accounts by default (good for third party transaction signing)
+* `-n` or `--secure`: Lock available accounts by default (good for third party transaction signing) with the empty string ('') as default password.
 * `-m` or `--mnemonic`: Use a bip39 mnemonic phrase for generating a PRNG seed, which is in turn used for hierarchical deterministic (HD) account generation.
 * `-p` or `--port`: Port number to listen on. Defaults to 8545.
 * `-h` or `--host` or `--hostname`: Hostname to listen on. Defaults to 127.0.0.1 (defaults to 0.0.0.0 for Docker instances of ganache-cli).
