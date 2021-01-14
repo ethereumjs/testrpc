@@ -93,6 +93,12 @@ module.exports = exports = function(yargs, version, isDocker) {
       normalize: true,
       default: null
     })
+    .option('dbMemdown', {
+      group: 'Chain:',
+      describe: 'Use in memory database instead of file based chain database',
+      type: 'boolean',
+      default: false
+    })
     .option('s', {
       group: 'Chain:',
       alias: 'seed',

@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "ethereumjs-util": "6.2.1",
+    "memdown": "^5.1.0",
     "source-map-support": "0.5.12",
     "yargs": "13.2.4"
   },
