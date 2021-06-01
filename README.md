@@ -3,8 +3,8 @@
 </p>
 <hr/>
 
-[![npm](https://img.shields.io/npm/v/ganache-cli.svg)]()
-[![npm](https://img.shields.io/npm/dm/ganache-cli.svg)]()
+[![npm](https://img.shields.io/npm/v/ganache-cli.svg)](https://www.npmjs.com/package/ganache-cli)
+[![npm](https://img.shields.io/npm/dm/ganache-cli.svg)](https://www.npmjs.com/package/ganache-cli)
 [![Build Status](https://travis-ci.org/trufflesuite/ganache-cli.svg?branch=master)](https://travis-ci.org/trufflesuite/ganache-cli)  
 
 <p align="center">
